@@ -32,7 +32,7 @@ function draw() {
 background(255,0,0);
 image(img,width/6,height/6);
 textSize(50);
-text('GAME OVER', 270, 300);
+text('GAME OVER', 600, 100);
 textSize(25);
 text('Press F5 to restart',315,400);
 x1Speed=0
