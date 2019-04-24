@@ -34,7 +34,7 @@ image(img,width/6,height/6);
 textSize(50);
 text('GAME OVER', 500, 100);
 textSize(25);
-text('Press F5 to restart',525,200);
+text('Press F5 to restart',525,125);
 x1Speed=0
 
 
