@@ -22,7 +22,7 @@ function preload() {
 function setup() {
   // put setup code here
   createCanvas(windowWidth,windowHeight);
-   mySound.setVolume(0.1);
+   mySound.setVolume(0.5);
     mySound.play();
 }
 
