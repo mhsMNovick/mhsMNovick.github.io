@@ -19,7 +19,7 @@ function preload() {
 
 function setup() {
   // put setup code here
-  createCanvas(1250,1000);
+  createCanvas(1250,900);
 }
 
 function draw() {
