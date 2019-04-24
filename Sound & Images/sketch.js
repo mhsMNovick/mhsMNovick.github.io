@@ -31,7 +31,7 @@ function draw() {
   if (hit===true){
 background(255,0,0);
 img.resize(400, 400);
-image(img,windowWidth/2,windowHeight/2);
+image(img,width/2,height/2);
 textSize(50);
 text('GAME OVER', 500, 100);
 textSize(25);
