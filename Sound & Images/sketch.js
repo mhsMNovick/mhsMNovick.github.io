@@ -1,4 +1,5 @@
 let img;
+let mySound;
 let x=0;
 let x2=600;
 let y=300;
@@ -15,11 +16,14 @@ let x1Speed=10;
 
 function preload() {
   img = loadImage('Rapslogo.png');
+  mySound = loadSound('dingdong.mp3'); 
 }
 
 function setup() {
   // put setup code here
   createCanvas(windowWidth,windowHeight);
+   mySound.setVolume(0.1);
+    mySound.play();
 }
 
 function draw() {
