@@ -30,7 +30,7 @@ function draw() {
 
   if (hit===true){
 background(255,0,0);
-image(img,width/6,height/6);
+image(img,width/10,height/10);
 textSize(50);
 text('GAME OVER', 500, 100);
 textSize(25);
