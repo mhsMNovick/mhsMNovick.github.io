@@ -22,8 +22,7 @@ function preload() {
 function setup() {
   // put setup code here
   createCanvas(windowWidth,windowHeight);
-   mySound.setVolume(0.1);
-    mySound.play();
+ 
 }
 
 function draw() {
@@ -33,6 +32,8 @@ function draw() {
   print(hit);
 
   if (hit===true){
+      mySound.setVolume(0.1);
+    mySound.play();
 background(255,0,0);
 img.resize(400, 400);
 image(img,width/2,height/2);
