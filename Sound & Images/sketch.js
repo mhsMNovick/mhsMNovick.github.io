@@ -1,6 +1,6 @@
 let img;
 let mySound;
-let x=random(1250);
+let x=0;
 let x2=600;
 let y=300;
 let y2=300
