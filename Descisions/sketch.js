@@ -18,7 +18,7 @@ function keyPressed() {
 
 
   if (keyCode === LEFT_ARROW) {
-    text('rock'windowWidth/2,windowHeight/2
+    text('rock'windowWidth/2,windowHeight/2)
 
 
   }
