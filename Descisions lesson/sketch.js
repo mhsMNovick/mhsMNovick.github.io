@@ -9,7 +9,6 @@ function setup() {
 
 function draw() {
   // put drawing code here
- fill(0);
   textSize(25);
   text('CPU',width/2+25,height/2-25);
   text('Player',width/2-100,height/2-25);
