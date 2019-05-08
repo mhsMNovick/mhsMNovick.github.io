@@ -1,3 +1,8 @@
+/*Matthew Novick
+  Snowman drawing lesson
+  March 6, 2019
+  Revision date: May 8, 2019
+
 function setup() {
   // put setup code here
   createCanvas(800,600);
