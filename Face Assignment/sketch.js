@@ -1,4 +1,6 @@
-//This sketch.js file is the group version. Group members: Abdol, Charlie, Matt, and Tina.
+//This sketch.js file is the group version of the face assignment. Group members: Abdol, Charlie, Matt, and Tina.
+//April 2, 2019
+//Revision date: May 8, 2019
 
 //Group tips and notes:
   //MAKE COMMENTS TO TALK @Tina -Put your name after a comment so we know who it is @charlie
