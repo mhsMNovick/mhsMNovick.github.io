@@ -1,16 +1,23 @@
-let x=0;
-let y=255;
-let size=50;
-function setup() {
+  /* Looping Structure
+     Matthew Novick 
+     May 7, 2019
+     Revised: May 8, 2019 */
+
+
+
+  let x=0;
+  let y=255;
+  let size=50;
+  function setup() {
   // put setup code here
   createCanvas(windowWidth,windowHeight)
-}
+  }
 
-function draw() {
+  function draw() {
   // put drawing code here
 
   for(let y = 0; y<=height;y=y+50){
- noStroke();
+  noStroke();
     fill(random(255))
   ellipse(random(windowWidth),y,size,size)
 
@@ -18,4 +25,4 @@ function draw() {
   }
 
 
-}
+    }
