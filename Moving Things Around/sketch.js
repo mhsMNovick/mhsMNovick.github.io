@@ -1,18 +1,26 @@
-let x = 100;
-let y = 100;
-let y2= 100;
-let x2= 100;
-let size=200
-let xball=100
-let yball=100
-let xSpeed=5
-let ySpeed=0
-let size2=15
-function setup() {
+/* Moving Things Around
+   Matthew Novick
+   April 4, 2019
+   revised: May 8, 2019
+   */
+
+
+
+  let x = 100;
+  let y = 100;
+  let y2= 100;
+  let x2= 100;
+  let size=200
+  let xball=100
+  let yball=100
+  let xSpeed=5
+  let ySpeed=0
+  let size2=15
+  function setup() {
   createCanvas(1012, 512);
 }
 
-function draw() {
+  function draw() {
   background(0);
   drawball();
   hittingstuuf();
@@ -94,7 +102,7 @@ function drawball() {
   }
 
 }
-
+// How the ball hits the thing
 function hittingstuuf(){
 if((xball>x2 && xball<x2+10)&&(yball+yball/2)>=y2){
   xSpeed *=-1;
