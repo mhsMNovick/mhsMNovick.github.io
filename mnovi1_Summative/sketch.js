@@ -469,7 +469,7 @@ else if(level===2){
   circle(x,y,size,size);
   fill(255,50,323);
   textSize(25);
-  text("Level 2",100,25);
+  text("Level 2 ----- (hint: go up)",200,25);
 
   if (y<0){
     y=0
